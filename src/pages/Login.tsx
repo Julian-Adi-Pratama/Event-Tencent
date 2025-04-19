@@ -64,7 +64,7 @@ const Login: React.FC = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-green-200 via-white to-blue-200 px-4">
       <div className="bg-white shadow-2xl rounded-2xl p-10 w-full max-w-lg border border-gray-200">
-        <h2 className="text-3xl font-bold text-center text-blue-600 mb-8">
+        <h2 className="text-3xl font-bold text-center text-green-600 mb-8">
           Login Superadmin
         </h2>
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -112,7 +112,7 @@ const Login: React.FC = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            className="w-full bg-green-600 text-white py-2 rounded-xl hover:bg-green-700 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
           >
             {loading ? 'Logging in...' : 'Login'}
           </button>
